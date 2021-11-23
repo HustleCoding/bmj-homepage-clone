@@ -1,26 +1,22 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import Header from "./components/Header/Header";
+import GlobalStyles from "./components/Global/Global";
+import NavBar from "./components/Nav-Bar/Nav-Bar";
+import { BigContainer } from "./components/BigContainer/BigContainer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App: React.FC = () => (
+  <>
+    <GlobalStyles />
+    <Header />
+    <NavBar
+      btnOne="Research"
+      btnTwo="Education"
+      btnThree="News & Views"
+      btnFour="Campaigns"
+      btnFive="Jobs"
+    />
+    <BigContainer />
+  </>
+);
 
 export default App;
