@@ -24,7 +24,7 @@ export const Container = ({ title, article }: Props) => {
         </StyledArticleAnchor>
       </StyledSecondContainer>
       <StyledImage>
-        <img src={image} alt="sss" />
+        <img src={image} alt="img" />
       </StyledImage>
     </StyledContainer>
   );
