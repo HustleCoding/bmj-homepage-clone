@@ -4,14 +4,16 @@ import {
   StyledPodcast,
   StyledBigTitle,
   StyledRightPart,
+  StyledArticlePodcastDescription,
+  StyledImageAndArticle,
 } from "./Podcast.styled";
 import {
   StyledAnchor,
   StyledLowerDetails,
   StyledArticleTitle,
 } from "../Articles/Articles.styled";
-import { StyledArticleDescription } from "../LatestArticles/LatestArticles.styled";
 import { PodcastData, PodcastDataLeft } from "../../data/data";
+import { StyledArticleDescription } from "../LatestArticles/LatestArticles.styled";
 
 export const Podcast = () => {
   return (
@@ -22,16 +24,18 @@ export const Podcast = () => {
         <StyledLeftPart>
           {PodcastDataLeft.map((article) => (
             <>
-              <hr />
               <StyledArticleTitle>{article.title}</StyledArticleTitle>
-              <img src={article.img} alt="" />
+              <StyledImageAndArticle>
+                <img src={article.img} alt="" />
+                <StyledArticlePodcastDescription>
+                  <p>{article.description}</p>
+                </StyledArticlePodcastDescription>
+              </StyledImageAndArticle>
               <StyledLowerDetails>
                 <StyledAnchor>
                   {article.articleType} {article.sign} {article.date}
                 </StyledAnchor>
-                <StyledArticleDescription>
-                  <p>{article.description}</p>
-                </StyledArticleDescription>
+                <hr />
               </StyledLowerDetails>
             </>
           ))}
@@ -40,9 +44,10 @@ export const Podcast = () => {
           {PodcastData.map((article) => (
             <>
               <StyledArticleDescription>
-                <a href="">{article.description}</a>
+                <a href="/">{article.description}</a>
               </StyledArticleDescription>
               <StyledLowerDetails>
+                <hr />
                 <StyledAnchor>
                   {article.articleType} {article.sign} {article.date}
                 </StyledAnchor>

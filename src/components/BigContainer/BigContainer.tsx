@@ -5,7 +5,7 @@ import { StyledBigContainer } from "./BigContainer.styled";
 
 export const BigContainer = () => {
   return (
-    <div className="big">
+    <>
       <StyledBigContainer>
         <Container
           title="Conflict, extremism, resilience, and peace in South Asia; can covid-19 provide a bridge for rapprochement?"
@@ -14,6 +14,6 @@ export const BigContainer = () => {
         <Articles />
         <RightSideArticles />
       </StyledBigContainer>
-    </div>
+    </>
   );
 };

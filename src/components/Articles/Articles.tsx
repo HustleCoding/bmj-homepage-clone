@@ -3,7 +3,7 @@ import {
   StyledArticleTitle,
   StyledLowerDetails,
   StyledAnchor,
-  StyledArticleDescription,
+  StyledArticleDescriptions,
   StyledEachArt,
 } from "./Articles.styled";
 import { articlesData } from "../../data/data";
@@ -17,9 +17,9 @@ export const Articles = () => {
           <StyledArticleTitle>
             <p>{article.title}</p>
           </StyledArticleTitle>
-          <StyledArticleDescription>
+          <StyledArticleDescriptions>
             <p>{article.description}</p>
-          </StyledArticleDescription>
+          </StyledArticleDescriptions>
           <StyledLowerDetails>
             <StyledAnchor>
               {article.articleType} {article.sign} {article.date}

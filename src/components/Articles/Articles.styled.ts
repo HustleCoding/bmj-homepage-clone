@@ -26,7 +26,7 @@ export const StyledArticleTitle = styled.div`
   }
 `;
 
-export const StyledArticleDescription = styled.div`
+export const StyledArticleDescriptions = styled.div`
   box-sizing: border-box;
   margin: 0;
   min-width: 0;

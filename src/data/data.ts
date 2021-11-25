@@ -259,7 +259,7 @@ export const PodcastDataLeft = [
   {
     title: "Designing an ecological approach to health",
     description:
-      "Patients with sickle cell disease attending hospital in England face substandard care and negative attitudes, with some exposed to blatant racism, an inquiry has found",
+      "Gillian Orrow describes how we can cultivate personal, population, and planetary health",
     articleType: "News",
     date: "Nov 16",
     img: podcastImage,

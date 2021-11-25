@@ -18,8 +18,7 @@ export const StyledBigTitle = styled.h3`
 
 export const StyledPodcast = styled.div`
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 370px 0;
+  grid-template-columns: 3fr 4fr;
 `;
 
 export const StyledHr = styled.hr`
@@ -28,21 +27,40 @@ export const StyledHr = styled.hr`
 
 export const StyledLeftPart = styled.div`
   box-sizing: border-box;
-  margin: 0px;
+  margin: 0;
   min-width: 0px;
   display: grid;
-  display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(1, 1fr);
-  padding-bottom: 0px;
 `;
 
 export const StyledRightPart = styled.div`
   box-sizing: border-box;
-  margin: 0px;
+  margin: 0;
   min-width: 0px;
   display: grid;
-  gap: 0.5rem;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 2fr);
   padding-bottom: 0px;
+`;
+
+export const StyledArticlePodcastDescription = styled.div`
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #5f6163;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+`;
+
+export const StyledImageAndArticle = styled.div`
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 2fr 3fr;
+  justify-items: stretch;
 `;
