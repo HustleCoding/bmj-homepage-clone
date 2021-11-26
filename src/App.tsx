@@ -6,6 +6,7 @@ import { BigContainer } from "./components/BigContainer/BigContainer";
 import { LatestArticles } from "./components/LatestArticles/LatestArticles";
 import { Podcast } from "./components/PodcastContainer/Podcast";
 import { Pressures } from "./components/PressuresContainer/Pressures";
+import { CurrentIssue } from "./components/CurrentIssueContainer/CurrentIssue";
 
 const App: React.FC = () => (
   <>
@@ -22,6 +23,7 @@ const App: React.FC = () => (
     <LatestArticles />
     <Podcast />
     <Pressures />
+    <CurrentIssue />
   </>
 );
 

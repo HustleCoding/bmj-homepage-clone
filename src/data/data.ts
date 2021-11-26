@@ -341,3 +341,33 @@ export const JobsArticlesData = [
     title: "Quay Lane Surgery: Salaried GP",
   },
 ];
+
+export const CurrentIssueData = [
+  {
+    description:
+      "Effectiveness of public health measures in reducing the incidence of covid-19, SARS-CoV-2 transmission, and covid-19 mortality",
+    articleType: "Research",
+    date: "Nov 18",
+    sign: "|",
+  },
+  {
+    description:
+      "Priority setting and net zero healthcare: how much health can a tonne of carbon buy?",
+    articleType: "Analysis",
+    date: "Oct 28",
+    sign: "|",
+  },
+  {
+    description: "When and how to deintensify type 2 diabetes care",
+    articleType: "Practice",
+    date: "Nov 5",
+    sign: "|",
+  },
+  {
+    description:
+      "Afghanistan’s doctors urge world to put politics and prejudice aside to save its healthcare",
+    articleType: "Feature",
+    date: "Nov 3",
+    sign: "|",
+  },
+];
