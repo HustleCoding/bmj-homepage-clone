@@ -371,3 +371,40 @@ export const CurrentIssueData = [
     sign: "|",
   },
 ];
+
+export const FirstColumnData = [
+  {
+    id: 1,
+    title:
+      "Covid-19: Researcher blows the whistle on data integrity issues in Pfizer’s vaccine trial",
+  },
+  {
+    id: 4,
+    title: "Menstrual changes after covid-19 vaccination",
+  },
+];
+
+export const SecondColumnData = [
+  {
+    id: 2,
+    title:
+      "Covid-19: Booster vaccine gives “significant increased protection” in over 50s",
+  },
+  {
+    id: 5,
+    title:
+      "Vaccinating people who have had covid-19: why doesn’t natural immunity count in the US?",
+  },
+];
+
+export const ThirdColumnData = [
+  {
+    id: 3,
+    title:
+      "Covid-19: Sweden, Norway, and Finland suspend use of Moderna vaccine in young people “as a precaution”",
+  },
+  {
+    id: 6,
+    title: "Covid-19: What next for the Valneva vaccine?",
+  },
+];

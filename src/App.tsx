@@ -7,6 +7,7 @@ import { LatestArticles } from "./components/LatestArticles/LatestArticles";
 import { Podcast } from "./components/PodcastContainer/Podcast";
 import { Pressures } from "./components/PressuresContainer/Pressures";
 import { CurrentIssue } from "./components/CurrentIssueContainer/CurrentIssue";
+import { MostRead } from "./components/MostReadContainer/MostRead";
 
 const App: React.FC = () => (
   <>
@@ -24,6 +25,7 @@ const App: React.FC = () => (
     <Podcast />
     <Pressures />
     <CurrentIssue />
+    <MostRead />
   </>
 );
 
