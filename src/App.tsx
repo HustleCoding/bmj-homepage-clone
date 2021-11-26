@@ -5,6 +5,7 @@ import NavBar from "./components/Nav-Bar/Nav-Bar";
 import { BigContainer } from "./components/BigContainer/BigContainer";
 import { LatestArticles } from "./components/LatestArticles/LatestArticles";
 import { Podcast } from "./components/PodcastContainer/Podcast";
+import { Pressures } from "./components/PressuresContainer/Pressures";
 
 const App: React.FC = () => (
   <>
@@ -20,6 +21,7 @@ const App: React.FC = () => (
     <BigContainer />
     <LatestArticles />
     <Podcast />
+    <Pressures />
   </>
 );
 

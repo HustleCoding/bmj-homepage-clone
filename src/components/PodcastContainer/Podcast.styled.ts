@@ -14,11 +14,13 @@ export const StyledBigTitle = styled.h3`
   color: #353637;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  margin-left: 1rem;
 `;
 
 export const StyledPodcast = styled.div`
   display: grid;
-  grid-template-columns: 3fr 4fr;
+  grid-template-columns: 3fr 5fr;
+  margin: 1rem;
 `;
 
 export const StyledHr = styled.hr`

@@ -7,6 +7,8 @@ import commentImage from "./../images/OxyContin_opioid_spl_C0279987.jpeg";
 import educationImage from "./../images/coronavirus_ward_team.jpeg";
 import podcastImg from "./../images/recov_small.jpeg";
 import podcastImage from "./../images/recovery_orrow_350.jpeg";
+import gpImg from "./../images/gp_home_visit_2D6WR39.jpeg";
+import doctorImg from "./../images/doctor_medic_tired_burnout_2DYPRCH.jpeg";
 
 export const articlesData = [
   {
@@ -264,5 +266,78 @@ export const PodcastDataLeft = [
     date: "Nov 16",
     img: podcastImage,
     sign: "|",
+  },
+];
+
+export const PressuresDataLeft = [
+  {
+    title: "Helen Salisbury: What do GPs do all day?",
+    description:
+      "In the wake of toxic media narratives about primary care, Helen Salisbury defends the great variety of work GPs do",
+    articleType: "Opinion",
+    date: "Nov 9",
+    img: gpImg,
+    sign: "|",
+  },
+  {
+    title: "Turning up the heat on the NHS",
+    description:
+      "More thoughtful analysis of NHS problems is required, along with better engagement with those already working on them and more consideration of what has and hasn’t worked in the past, says Nigel Edwards",
+    articleType: "Editorial",
+    date: "Oct 29",
+    img: doctorImg,
+    sign: "|",
+  },
+];
+
+export const PressuresDataRight = [
+  {
+    description:
+      "We need long term, realistic, and tangible solutions to solve the crisis in general practice",
+    articleType: "Opinion",
+    date: "Oct 15",
+    sign: "|",
+  },
+  {
+    description:
+      "RCGP disputes health secretary’s claim that pressure in emergency departments is due to lack of GP appointments",
+    articleType: "News",
+    date: "Nov 15",
+    sign: "|",
+  },
+  {
+    description:
+      "GP numbers pledge: health secretary admits government won’t deliver",
+    articleType: "News",
+    date: "Nov 2",
+    sign: "|",
+  },
+  {
+    description: "There is still time to save the NHS, but time is running out",
+    articleType: "Opinion",
+    date: "Oct 22",
+    sign: "|",
+  },
+];
+
+export const JobsArticlesData = [
+  {
+    title: "Mullion Health Centre: Salaried GP",
+  },
+  {
+    title: "Babylon: Salaried GPs",
+  },
+  {
+    title: "Babylon: Salaried GPs",
+  },
+  {
+    title:
+      "Ramsey Group Practice: GP Partner (after 6 months mutual assessment)r",
+  },
+  {
+    title: "NHS Highland: GMS Contract Opportunity",
+  },
+  {
+    title: "Quay Lane Surgery: Salaried GP",
   },
 ];
